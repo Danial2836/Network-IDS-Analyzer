@@ -19,22 +19,3 @@ IDS Node: Ubuntu 24.04 (IP: 10.0.2.15) running the Python analyzer.
 
 Network: VirtualBox Internal Network (intnet) with Promiscuous Mode enabled.
 
-Installation & Usage
-Clone the Repository:
-
-Bash
-
-git clone https://github.com/Danial2836/Network-IDS-Analyzer.git
-cd Network-IDS-Analyzer
-Install Dependencies:
-
-Bash
-
-pip install -r requirements.txt
-Run the IDS:
-
-Bash
-
-sudo python3 ids_analyzer.py
-Performance Results
-During testing, the system achieved a 100% detection rate for SYN packets sent from the attacker node. The implementation successfully transitioned from a prototype to a deployment-ready security tool with integrated data persistence.
